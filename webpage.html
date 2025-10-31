@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova Solutions</title>
+    <style>
+        /* ===== Global Styles ===== */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            text-align: center;
+            background: #eef1f7; /* soft neutral */
+            color: #1f2937;
+            scroll-behavior: smooth;
+        }
+
+        /* ===== Header ===== */
+        header {
+            height: 110px;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #f9fafb;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+        }
+
+        header h1 {
+            margin: 15px 0 5px;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            font-weight: 600;
+            text-decoration: none;
+            margin: 15px;
+            color: #e2e8f0;
+            transition: color 0.3s, border-bottom 0.3s;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+            border-bottom: 2px solid #38bdf8;
+        }
+
+        /* ===== Sections ===== */
+        section {
+            min-height: 100vh;
+            padding: 120px 40px 60px;
+        }
+
+        /* ===== Home Section ===== */
+        #home {
+            background: linear-gradient(135deg, #1e3a8a, #2563eb, #60a5fa);
+            color: white;
+        }
+
+        #home h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        #home p {
+            font-size: 18px;
+            color: #e0f2fe;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            background: #f9fafb;
+            color: #1e3a8a;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background 0.3s, color 0.3s, transform 0.2s;
+        }
+
+        .btn:hover {
+            background: #2563eb;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        /* ===== Services Section ===== */
+        #services {
+            background: #f8fafc;
+            color: #1e293b;
+        }
+
+        #services h2 {
+            color: #1e40af;
+            margin-bottom: 20px;
+        }
+
+        #services ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #services li {
+            font-size: 18px;
+            margin: 12px 0;
+            background: #e2e8f0;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+
+        #services li:hover {
+            transform: translateY(-3px);
+        }
+
+        /* ===== Contact Section ===== */
+        #contact {
+            background: #e2e8f0;
+        }
+
+        #contact h2 {
+            color: #1e3a8a;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background: white;
+            padding: 30px;
+            display: inline-block;
+            border-radius: 12px;
+            text-align: left;
+            max-width: 400px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 12px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        form button {
+            padding: 10px;
+            width: 100%;
+            background: #2563eb;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        form button:hover {
+            background: #1d4ed8;
+        }
+
+        /* ===== Footer ===== */
+        footer {
+            padding: 15px;
+            background: #0f172a;
+            color: #cbd5e1;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TechNova Solutions</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Innovative Tech Solutions</h2>
+        <p>Your trusted IT partner for software development, cybersecurity, and consulting.</p>
+        <a href="#services" class="btn">Our Services</a>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Website Development</li>
+            <li>Mobile App Development</li>
+            <li>Cybersecurity</li>
+            <li>Cloud Solutions</li>
+            <li>Networking</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 TechNova Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
