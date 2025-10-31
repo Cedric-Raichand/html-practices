@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background: #f4f4f4;
+
+    }
+    header{
+        height: 110px;
+        background-color: black;
+        color: white;
+        position: fixed;
+        z-index: 1000;
+        top:0;
+        left: 0;
+        width: 100%;
+        
+    }
+    #home{
+        background-color: blue;
+    }
+    #services{
+        background-color: red;
+        color: white;
+
+    }
+    #contact {
+        background: #f4f4f4;
+    }
+    nav a{
+        font-weight: bold;
+        text-decoration: none;
+        margin: 15px;
+        color: white;
+
+    }
+    section{
+        min-height: 100vh;
+        padding: 100px;
+    }
+    .btn{
+        padding: 5px 10px;
+        color: white;
+        text-decoration: none;
+        background-color: white;
+        color: blue;
+        border-radius: 5px;
+
+    }
+    form {
+        background: white;
+        padding: 20px;
+        display: inline-block;
+        border-radius: 5px;
+        text-align: left;
+    }
+    form label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+
+    form input, form textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    form button {
+        padding: 10px;
+        background: #007BFF;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    footer {
+        padding: 10px;
+        background: #222;
+        color: white;
+    }
+    
+    
+
+</style>
+<body>
+    <header>
+        <h1>TechNova Solutions</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Innovative Tech Solutions</h2>
+        <p>Yor trusted IT partner for software development, cybersecurity and consulting</p>
+        <a href ="#services" class="btn">Our Services</a>
+
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Website development</li>
+            <li>MobileApp development</li>
+            <li>Cybersecurity</li>
+            <li>Cloud Solutions</li>
+            <li>Networking</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+        </form>
+       
+    </section>
+
+      <footer>
+        <p>&copy; 2025 TechNova Solutions</p>
+    </footer>
+</body>
+</html>

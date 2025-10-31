@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    margin-top: 30px;
+    background: linear-gradient(135deg,#1e3c72, #2a5298);
+    color:#fff
+    
+}
+#roll{
+    font-size: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffcc00;
+    color:#000;
+    
+}
+#target{
+    font-size: 50px;
+}
