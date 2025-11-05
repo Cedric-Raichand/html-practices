@@ -3,11 +3,11 @@ body{
     margin-top: 32px;
     background: linear-gradient(135deg,#1e3c72, #2a5298);
     color:#fff;
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
     
 }
 #roll{
-    font-size: 50px;
+    font-size: 52px;
     border-radius: 6px;
     cursor: pointer;
     background-color: #ffcc00;

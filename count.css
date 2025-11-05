@@ -10,13 +10,13 @@
     
 }
 .button{
-    padding:20px 50px;
+    padding:22px 52px;
     font-size: 20px;
-    margin: 10px;
+    margin: 12px;
     color: white;
     background-color: hsl(214,100%,74%);
     border-style: solid;
-    border-radius: 6px;
+    border-radius: 7px;
     cursor: pointer;
     transition: background-color 0.25s;
 }
@@ -27,5 +27,5 @@ body{
     background-color: antiquewhite;
     padding: 0;
     margin: 0;
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
