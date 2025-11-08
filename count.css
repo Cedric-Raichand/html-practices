@@ -14,9 +14,9 @@
     font-size: 20px;
     margin: 12px;
     color: white;
-    background-color: hsl(214,100%,74%);
+    background-color: hsl(212,100%,76%);
     border-style: solid;
-    border-radius: 7px;
+    border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.25s;
 }
