@@ -5,7 +5,7 @@ body{
 
 }
 h3{
-  color: hsl(224,100%,65%);
+  color: hsl(226,100%,66%);
 }
 form{
     background-color: hsl(0,0%,100%);
@@ -18,12 +18,12 @@ form{
 }
 #textBox{
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     width: 50%;
 
-    border-radius: 7px;
+    border-radius: 5px;
     border: solid;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
 
 }
 label{
@@ -36,16 +36,16 @@ button{
     color: whitesmoke;
 
 
-    padding: 6px 10px;
+    padding: 5px 10px;
 
     border-radius: 5px;
     cursor: pointer;
     border: none;
 }
 button:hover{
-    background-color: rgb(212, 18, 15);
+    background-color: rgb(214, 20, 17);
 }
 #result{
     font-weight: bold;
-    font-size: 17px;
+    font-size: 16px;
 }
