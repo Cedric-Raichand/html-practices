@@ -12,16 +12,16 @@
 .button{
     padding:20px 50px;
     font-size: 20px;
-    margin: 12px;
+    margin: 10px;
     color: white;
-    background-color: hsl(212,100%,76%);
+    background-color: hsl(214,100%,78%);
     border-style: solid;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.25s;
 }
 .button:hover{
-    background-color: hsl(216,100%,58%);
+    background-color: hsl(218,100%,60%);
 }
 body{
     background-color: antiquewhite;
