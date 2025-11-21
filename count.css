@@ -14,14 +14,14 @@
     font-size: 20px;
     margin: 10px;
     color: white;
-    background-color: hsl(214,100%,78%);
+    background-color: hsl(215,100%,80%);
     border-style: solid;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.25s;
 }
 .button:hover{
-    background-color: hsl(218,100%,60%);
+    background-color: hsl(220,100%,62%);
 }
 body{
     background-color: antiquewhite;
