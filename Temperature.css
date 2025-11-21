@@ -1,11 +1,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: hsl(0,0%,95%);
+    background-color: hsl(0,0%,97%);
     scroll-behavior: smooth;
 
 }
 h3{
-  color: hsl(226,100%,66%);
+  color: hsl(227,100%,68%);
 }
 form{
     background-color: hsl(0,0%,100%);
