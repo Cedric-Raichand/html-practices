@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    margin-top: 32px;
+    margin-top: 30px;
     background: linear-gradient(135deg,#1e3c72, #2a5298);
     color:#fff;
     scroll-behavior: smooth;
@@ -8,7 +8,7 @@ body{
 }
 #roll{
     font-size: 50px;
-    border-radius: 5px;
+    border-radius: 7px;
     cursor: pointer;
     background-color: #ffcc00;
     color:#000;
