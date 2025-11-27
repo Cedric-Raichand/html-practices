@@ -1,11 +1,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: hsl(0,0%,97%);
+    background-color: hsl(0,0%,98%);
     scroll-behavior: smooth;
 
 }
 h3{
-  color: hsl(228,100%,70%);
+  color: hsl(230,100%,70%);
 }
 form{
     background-color: hsl(0,0%,100%);
@@ -27,11 +27,11 @@ form{
 
 }
 label{
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
 }
 button{
-    margin-top: 17px;
+    margin-top: 15px;
     background-color: red;
     color: whitesmoke;
 
@@ -47,5 +47,5 @@ button:hover{
 }
 #result{
     font-weight: bold;
-    font-size: 17px;
+    font-size: 15px;
 }
