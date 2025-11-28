@@ -8,7 +8,7 @@ body{
 }
 #roll{
     font-size: 50px;
-    border-radius: 7px;
+    border-radius: 5px;
     cursor: pointer;
     background-color: #ffcc00;
     color:#000;
