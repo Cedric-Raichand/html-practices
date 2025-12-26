@@ -27,18 +27,18 @@ form{
 
 }
 label{
-    font-size: 17px;
+    font-size: 20px;
     font-weight: bold;
 }
 button{
-    margin-top: 17px;
+    margin-top: 15px;
     background-color: red;
     color: whitesmoke;
 
 
-    padding: 7px 12px;
+    padding: 5px 12px;
 
-    border-radius: 7px;
+    border-radius: 5px;
     cursor: pointer;
     border: none;
 }
@@ -47,5 +47,5 @@ button:hover{
 }
 #result{
     font-weight: bold;
-    font-size: 17px;
+    font-size: 15px;
 }
