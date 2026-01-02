@@ -7,7 +7,7 @@ body{
     
 }
 #roll{
-    font-size: 50px;
+    font-size: 60px;
     border-radius: 5px;
     cursor: pointer;
     background-color: #ffcc00;
@@ -15,5 +15,5 @@ body{
     
 }
 #target{
-    font-size: 50px;
+    font-size: 60px;
 }
