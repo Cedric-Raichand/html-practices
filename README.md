@@ -1,13 +1,3 @@
----
-
-## 🛠️ Technologies Used
-
-- **HTML5**
-
-(No frameworks or libraries used — pure HTML practice)
-
----
-
 ## 🎯 Learning Goals
 
 - Write clean and readable HTML
