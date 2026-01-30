@@ -8,16 +8,6 @@
 
 ---
 
-## 🚀 How to Run the Files
-
-1. Clone or download the repository
-2. Open any `.html` file
-3. Run it in a browser (Chrome, Firefox, Edge, etc.)
-
-No installation or setup required.
-
----
-
 ## 🎯 Learning Goals
 
 - Write clean and readable HTML
