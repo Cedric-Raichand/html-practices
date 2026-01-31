@@ -13,6 +13,7 @@ This repository will continue to grow as I:
 - Learn more HTML features
 - Improve code quality
 - Add more structured practice projects
+- Build more realistic projects
 
 ---
 
