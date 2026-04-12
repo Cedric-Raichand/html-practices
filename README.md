@@ -14,7 +14,7 @@ This repository will continue to grow as I:
 - Improve code quality
 - Add more structured practice projects
 - Build more realistic projects
-
+Since its my dream and goal to build secure applications     
 ---
 
 ## 👤 Author
