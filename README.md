@@ -1,7 +1,7 @@
 ## 🎯 Learning Goals
 
 - Write clean and readable HTML
-- Understand page structure
+- Build meaningful and secured projects    - Understand page structure
 - Improve accessibility using semantic tags
 - Build a strong foundation for **CSS, JavaScript, and web development**
 
